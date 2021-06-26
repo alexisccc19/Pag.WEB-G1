@@ -1,0 +1,14 @@
+/* CSS files ad styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0em;
+}
+.cover {
+  height: 400px;
+  background-image: url(https://cdn.glitch.com/d8f3e205-3d83-4675-a445-e76e7452b7dd%2Fclinica1.jpg?v=1624663581618);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+}

@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+[user]
+	email = none
+	name = Glitch (glitch-hello-website)
+[remote "origin"]
+	url = https://github.com/alexisccc19/WebClinicaUNMSM.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
