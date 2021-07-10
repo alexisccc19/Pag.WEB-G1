@@ -12,6 +12,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- permite que se vea bien en dispositivos moviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- nos va permitir cambiar el tipo de letre a sans-->
+    <link
+      <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -63,7 +69,7 @@
       <div class="container mt-5 mb-5">
         <!-- pone las tarjetas una a lado de la otra-->
         <div class="row justify-content-center">
-          <div class="col-12 col-sm-6 col-md-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
             <div class="card">
               <img
                 class="card-img-top"
@@ -75,12 +81,12 @@
                 <p class="card-text">
                   Satisfacer en forma integral las necesidades en el cuidado de
                   la salud de las personas y contribuir al desarrollo del
-                  conocimiento médico en beneficion de la comunidad sanmarquina.
+                  conocimiento médico en beneficio de la comunidad sanmarquina
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
             <div class="card">
               <img
                 class="card-img-top"
@@ -90,13 +96,14 @@
               <div class="card-body">
                 <h5 class="card-title">Visión</h5>
                 <p class="card-text">
-                  Ser reconocida como la primera institucion de salud publica a nivel universitario,
-                  con mayor cobertura y pacientes satisfechos a nivel nacional.
+                  Ser reconocida como la primera institucion de salud publica a
+                  nivel universitario, con mayor cobertura y pacientes
+                  satisfechos a nivel nacioanal
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
             <div class="card">
               <img
                 class="card-img-top"
@@ -106,12 +113,69 @@
               <div class="card-body">
                 <h5 class="card-title">Noticias</h5>
                 <p class="card-text">
-                  Ser reconocida como la primera institucion de salud publica a nivel universitario,
-                  con mayor cobertura y pacientes satisfechos a nivel nacional.
+                  Ser reconocida como la primera institucion de salud publica a
+                  nivel universitario, con mayor cobertura y pacientes
+                  satisfechos a nivel nacional
                 </p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-5">
+            <img
+              class="card-img-top"
+              src="https://cdn.glitch.com/d8f3e205-3d83-4675-a445-e76e7452b7dd%2Fagenda1.jpg?v=1625797381451"
+              alt="una agenda"
+            />
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <h7>
+              ¡Agenda tu cita con tiempo!
+            </h7>
+            <p>
+              Podrás separar tu consulta médica desde cualquier dispositivo con
+              conexión a internet.
+            </p>
+            <a href="#">Ir al mapa</a>
+          </div>
+        </div>
+        <form action="">
+          <label for="email">Correo electrónico</label>
+          <div class="d-flex ">
+            <div class="flex-fill mr-3  ">
+              <!---si el ID del correo coincide con el atributo for de label aparece los correos registrados-->
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5">
+        <h3>
+          Aquí nos vemos
+        </h3>
+        <p>
+          Av Jorge Basadre, Cercado de Lima 15081
+        </p>
+        <div class="responsive iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31213.152369450898!2d-77.05438100124364!3d-12.067994302995384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10d7ea0bbf73c525!2sCl%C3%ADnica%20Universitaria%20UNMSM!5e0!3m2!1ses!2spe!4v1625802047738!5m2!1ses!2spe"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </section>
